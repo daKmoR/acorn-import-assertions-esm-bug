@@ -1,0 +1,20 @@
+{
+  "name": "roll",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c rollup.config.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rollup/plugin-node-resolve": "^13.0.2",
+    "acorn-import-assertions": "^1.7.3",
+    "lit": "^2.0.0-rc.2",
+    "rollup": "^2.53.2",
+    "rollup-plugin-lit-css": "^3.0.1"
+  }
+}
